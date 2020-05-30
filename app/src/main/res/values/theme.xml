@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Main color for actionBar, buttons, etc -->
-    <color name="theme_primary">@color/oppia_primary</color>
-    <color name="theme_primary_dark">@color/oppia_primary_dark</color>
+    <color name="theme_primary">@color/renlib_primary</color>
+    <color name="theme_primary_dark">@color/renlib_primary_dark</color>
     <!-- Secondary color: input tint, scorecard color, etc -->
-    <color name="theme_secondary">@color/oppia_secondary</color>
-    <color name="theme_secondary_light">@color/oppia_secondary_light</color>
+    <color name="theme_secondary">@color/renlib_secondary</color>
+    <color name="theme_secondary_light">@color/renlib_secondary_light</color>
 
     <!-- Drawables for app icon and course default image -->
-    <item name="app_icon" type="drawable">@drawable/dc_logo</item>
+    <item name="app_icon" type="drawable">@mipmap/ic_renlib</item>
     <item name="course_icon_placeholder" type="drawable">@drawable/default_course</item>
 
     <!-- Color used for dropdown menus and list tints, it is "theme_secondary_light" with transparency -->
@@ -16,7 +16,7 @@
     <color name="theme_tint_almosttransparent">#409aca3c</color> <!-- added 25%(40) transparency -->
 
     <!-- Color used for highlight dark text -->
-    <color name="theme_dark">@color/oppia_dark</color>
+    <color name="theme_dark">@color/renlib_dark</color>
 
     <!-- Toolbar -->
     <color name="toolbar_bg_color">@color/theme_primary</color>
